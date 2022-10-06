@@ -1,5 +1,5 @@
 import numpy as np
-
+#Assignment week 5
 class Tensor:
 
     """
@@ -9,6 +9,7 @@ class Tensor:
     Args:
         arr: Numpy array (numerical (int, float))
         requires_grad: If the tensor requires_grad (bool)(otherwise gradient dont apply to the tensor)
+
     """
 
     def __init__(self, arr, requires_grad=True):
