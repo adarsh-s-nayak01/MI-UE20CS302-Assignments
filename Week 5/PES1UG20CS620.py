@@ -1,5 +1,5 @@
 import numpy as np
-#Assignment week 5
+
 class Tensor:
 
     """
