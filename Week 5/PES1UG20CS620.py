@@ -1,5 +1,6 @@
 import numpy as np
-
+#Assingment 5.
+#Hands on session.
 class Tensor:
 
     """
