@@ -28,9 +28,6 @@ def A_star_Traversal(cost, heuristic, start_point, goals):
                     fpq.put((est_tot_cost, (star_path_till_n, neighbour_node, tot_cost_node)))
     return list()
 
-
-
-
 def DFS_Traversal(cost, start_point, goals):
     """
     Perform DFS Traversal and find the optimal path 
