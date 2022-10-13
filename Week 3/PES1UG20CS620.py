@@ -1,5 +1,8 @@
 '''
 Assume df is a pandas dataframe object of the dataset given
+name : adarsh s nayak
+srn : PES1UG20CS620
+roll no : 54
 '''
 import numpy as np
 import pandas as pd
@@ -63,7 +66,9 @@ def get_information_gain(df, attribute):
     information_gain = entropy_of_dataset - entropy_of_attribute
     return information_gain
 
+
 #input: pandas_dataframe
+
 #output: ({dict},'str')
 def get_selected_attribute(df):
     '''
