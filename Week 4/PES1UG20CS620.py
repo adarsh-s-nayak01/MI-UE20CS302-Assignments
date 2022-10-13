@@ -1,7 +1,11 @@
 import numpy as np
 from decimal import Decimal
 from math import *
-
+'''
+name : adarsh s nayak
+roll no : 54
+srn : PES1UG20CS620
+'''
 
 class KNN:
     """
